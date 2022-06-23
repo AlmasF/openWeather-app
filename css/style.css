@@ -1,0 +1,40 @@
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.user-input {
+    margin-top: 20px;
+}
+.user-input button {
+    margin-left: 10px;
+}
+
+#days-buttons {
+    margin-top: 10px;
+}
+
+.weather-interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.weather-chart canvas {
+    box-sizing: border-box;
+    display: block;
+    height: 500px;
+    width: auto;
+}
+
+.weather-image {
+    margin-right: 20px;
+}
+
+.weather-image img {
+    width: 200px;
+}
